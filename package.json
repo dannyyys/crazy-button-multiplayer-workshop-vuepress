@@ -1,0 +1,23 @@
+{
+  "name": "crazy-button-vue-press-site",
+  "version": "0.0.1",
+  "description": "Button that moves randomly whenever a player click on their screen",
+  "main": "index.js",
+  "authors": {
+    "name": "Okkar Min, Yeow Ying Sheng",
+    "email": ""
+  },
+  "repository": "https://github.com/OkkarMin/crazy-button-multiplayer-workshop/crazyButtonVueSite",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vue-gifplayer": "^1.0.2",
+    "vuepress-auto-sidebar": "^1.1.1"
+  }
+}
