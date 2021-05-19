@@ -1,21 +1,22 @@
-# Client Server Architecture
+# Crazy Buton workshop for SCSE Freshman 2021
 
-![Client Server Model image taken from StackOverflow](https://i.stack.imgur.com/qUyFW.png)
+Curated with ❤️ by [Okkar Min](https://okkarm.in), [Ying Sheng](https://yeowys.com) and [Jiayin](https://github.com/lhinjy)
 
-1. Client REQUEST from server (Client ➡️ Server)
-2. Server RESPONSE to client (Server ➡️ Client)
-3. Client make use of data from Server (Text, Image, Video etc...)
-4. Repeat 1 through 3
+## What we will be building
 
-**Server RESPONSE with data when Client REQUEST**
+![GIF of end product](../static/end_product.gif)
 
-## Daily Example:
+We are going to build a platform
 
-You visit YouTube
+- Has a button
+- That button moves to a random location when another player press the button on their side
+- Keep count of the the players score
 
-1. Your laptop (client) request to YouTube (server) asking for data
-2. YouTube (server) respond to your laptop with data
-3. Your laptop (client) shows you the home page of YouTube
-4. You click on a video, repeat 1 through 3
+## What you will learn
 
-[Image taken from StackOverflow](https://stackoverflow.com/questions/14703627/websockets-protocol-vs-http)
+You will understand
+
+- Client - Server architecture
+- WebSocket concept
+- How to build and manipulate a webpage using HTML + CSS + JavaScript
+- How to build Python websocket server

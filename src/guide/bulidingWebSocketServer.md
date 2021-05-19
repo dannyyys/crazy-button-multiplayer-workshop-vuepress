@@ -1,4 +1,4 @@
-# Building WebSocket server
+# Building our WebSocket server
 
 WebSocket server requirements
 

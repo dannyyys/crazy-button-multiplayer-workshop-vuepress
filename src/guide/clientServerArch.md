@@ -1,21 +1,39 @@
-# Client Server Architecture
+# Serving index.html and starting WebSocket server
 
-![Client Server Model image taken from StackOverflow](https://i.stack.imgur.com/qUyFW.png)
+> put `index.html` and `server.py` in same folder
 
-1. Client REQUEST from server (Client ➡️ Server)
-2. Server RESPONSE to client (Server ➡️ Client)
-3. Client make use of data from Server (Text, Image, Video etc...)
-4. Repeat 1 through 3
+## Library/Dependencies
 
-**Server RESPONSE with data when Client REQUEST**
+1. [Python 3.6 and above](https://www.python.org/)
 
-## Daily Example:
+2. [python-socketio](https://python-socketio.readthedocs.io/en/latest/server.html)
 
-You visit YouTube
+```bash
+pip install python-socketio #see https://python-socketio.readthedocs.io/en/latest/server.html
+```
 
-1. Your laptop (client) request to YouTube (server) asking for data
-2. YouTube (server) respond to your laptop with data
-3. Your laptop (client) shows you the home page of YouTube
-4. You click on a video, repeat 1 through 3
+3. [aiohttp](https://docs.aiohttp.org/en/stable/)
 
-[Image taken from StackOverflow](https://stackoverflow.com/questions/14703627/websockets-protocol-vs-http)
+```bash
+pip install aiohttp #see https://docs.aiohttp.org/en/stable/
+```
+
+## Running server
+
+```bash
+cd [to-directory-where-index.html-is-in]
+python server.py
+# or
+python3 server.py
+```
+
+## Serving index.html
+
+```bash
+cd [to-directory-where-server.py-is-in]
+python3 -m http.server 80
+```
+
+go to http://localhost:80 to see index.html, our Crazy Button in action
+
+Open two or more browser windows to see the button moving in realtime and scores being updated
