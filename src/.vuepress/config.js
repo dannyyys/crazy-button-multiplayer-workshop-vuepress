@@ -54,27 +54,27 @@ module.exports = {
           children: ["intro"],
         },
         {
-          title: "Client Server Architecture",
+          title: "What is Client Server Architecture?",
           collapsable: false,
           children: ["clientServerArch"],
         },
         {
-          title: "WebSocket",
+          title: "What is WebSocket?",
           collapsable: false,
           children: ["webSocket"],
         },
         {
-          title: "Our Crazy Button architecture",
+          title: "Our Crazy Button Architecture",
           collapsable: false,
           children: ["ourCrazyButton"],
         },
         {
-          title: "Building button page",
+          title: "Building our Crazy Button page",
           collapsable: false,
           children: ["buildingButtonPage"],
         },
         {
-          title: "Building WebSocket server",
+          title: "Building our WebSocket server",
           collapsable: false,
           children: ["bulidingWebSocketServer"],
         },

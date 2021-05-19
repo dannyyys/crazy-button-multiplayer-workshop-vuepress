@@ -1,4 +1,4 @@
-# Our Crazy Button architecture
+# Our Crazy Button Architecture
 
 1. Your laptop make request to server for handshake
 2. Server respond with handshake confirmation

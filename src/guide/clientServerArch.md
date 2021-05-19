@@ -1,39 +1,21 @@
-# Serving index.html and starting WebSocket server
+# What is Client Server Architecture?
 
-> put `index.html` and `server.py` in same folder
+![Client Server Model image taken from StackOverflow](https://i.stack.imgur.com/qUyFW.png)
 
-## Library/Dependencies
+1. Client REQUEST from server (Client ➡️ Server)
+2. Server RESPONSE to client (Server ➡️ Client)
+3. Client make use of data from Server (Text, Image, Video etc...)
+4. Repeat 1 through 3
 
-1. [Python 3.6 and above](https://www.python.org/)
+**Server RESPONSE with data when Client REQUEST**
 
-2. [python-socketio](https://python-socketio.readthedocs.io/en/latest/server.html)
+## Daily Example:
 
-```bash
-pip install python-socketio #see https://python-socketio.readthedocs.io/en/latest/server.html
-```
+You visit YouTube
 
-3. [aiohttp](https://docs.aiohttp.org/en/stable/)
+1. Your laptop (client) request to YouTube (server) asking for data
+2. YouTube (server) respond to your laptop with data
+3. Your laptop (client) shows you the home page of YouTube
+4. You click on a video, repeat 1 through 3
 
-```bash
-pip install aiohttp #see https://docs.aiohttp.org/en/stable/
-```
-
-## Running server
-
-```bash
-cd [to-directory-where-index.html-is-in]
-python server.py
-# or
-python3 server.py
-```
-
-## Serving index.html
-
-```bash
-cd [to-directory-where-server.py-is-in]
-python3 -m http.server 80
-```
-
-go to http://localhost:80 to see index.html, our Crazy Button in action
-
-Open two or more browser windows to see the button moving in realtime and scores being updated
+[Image taken from StackOverflow](https://stackoverflow.com/questions/14703627/websockets-protocol-vs-http)
