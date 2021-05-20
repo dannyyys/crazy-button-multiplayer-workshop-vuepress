@@ -54,12 +54,12 @@ module.exports = {
           children: ["intro"],
         },
         {
-          title: "What is Client Server Architecture?",
+          title: "Client Server Architecture",
           collapsable: false,
           children: ["clientServerArch"],
         },
         {
-          title: "What is WebSocket?",
+          title: "WebSocket",
           collapsable: false,
           children: ["webSocket"],
         },
@@ -79,7 +79,7 @@ module.exports = {
           children: ["bulidingWebSocketServer"],
         },
         {
-          title: "Serving index.html and starting WebSocket server",
+          title: "Let's run it!!",
           collapsable: false,
           children: ["servingHtmlStartServer"],
         },

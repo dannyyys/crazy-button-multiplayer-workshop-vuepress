@@ -5,5 +5,5 @@ tagline: Button that moves randomly whenever a player click on their screen
 actionText: Learn How →
 actionLink: /guide/intro
 
-footer: Curated by Okkar, Ying Sheng and JiaYin with ❤️
+footer: Curated by Okkar, Ying Sheng and Jiayin with ❤️
 ---
