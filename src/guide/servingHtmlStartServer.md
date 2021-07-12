@@ -21,7 +21,8 @@ pip install aiohttp #see https://docs.aiohttp.org/en/stable/
 ## Running server
 
 ```bash
-cd [to-directory-where-index.html-is-in]
+cd [to-directory-where-server.py-is-in]
+
 python server.py
 # or
 python3 server.py
@@ -30,7 +31,10 @@ python3 server.py
 ## Serving index.html
 
 ```bash
-cd [to-directory-where-server.py-is-in]
+cd [to-directory-where-index.html-is-in]
+
+python -m http.server 80
+# or
 python3 -m http.server 80
 ```
 
